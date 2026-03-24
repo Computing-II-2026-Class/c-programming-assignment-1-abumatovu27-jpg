@@ -1,11 +1,22 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+/* Name:MATOVU ABDRHAMAN */
+/* Student Number:2500801392 Your Registration Number;25/U/BIE/01392/PE */
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* Write your code here */
+      float unitsConsumed, unitPrice;
+    
+    printf("Enter units consumed:%.2f\n", unitsConsumed);
+    scanf("%f", &unitsConsumed);// reading the units consumed from the user and storing it in the variable unitsConsumed
+    
+    printf("Enter cost per unit:%.2f\n", unitPrice);
+    scanf("%f", &unitPrice);// reading the cost per unit from the user and storing it in the variable unitPrice
+    
+    float totalBill = unitsConsumed*unitPrice;// calculating total cost
+    
+    printf("Total Bill:%.2f\n", totalBill);
+  
 
     return 0;
 }
